@@ -1,0 +1,150 @@
+version: "3.1"
+
+intents:
+  - nlu_fallback
+  - bot_start_conversation
+  - restart_conversation
+  - greet
+  - goodbye
+  - bot_challange
+  - nta
+  - mission_nta
+  - nta_exams
+  - nta_exam_schedule
+  - nta_exam_mode
+  - tpc_definition
+  - tpc_objective
+  - nta_coaching
+  - join_tpc
+  - requirements_for_tpc
+  - tpc_aggrement
+  - login_credential_tpc
+  - candidate_registration_process_tpc
+
+
+actions:
+  - action_default_fallback
+
+responses:
+
+  utter_bot_start_conversation:
+    - text: "Hello and thank you for reaching out to the National Texting Agency. How may I assist you?"
+    - text: "Greetings! You've reached the National Texting Agency. How can I be of service?"
+    - text: "Welcome to the National Texting Agency. How can I assist you on this fine day?"
+    - text: "Hello there! Thanks for choosing the National Texting Agency. How may I help you?"
+    - text: "Greetings from the National Texting Agency! How can I provide support today?"
+
+
+  utter_nlu_fallback:
+    - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+    - text: "I apologize, I didn't fully grasp your message. Could you please phrase it differently?"
+    - text: "I'm sorry, I'm having difficulty comprehending your statement. Could you express it in another way?"
+    - text: "Apologies, I didn't catch that. Can you reformulate your message, please?"
+    - text: "My apologies, I'm struggling to understand. Could you reword your statement for me?"
+
+ 
+  utter_greet:
+    - text: "Hello and thank you for reaching out to the National Texting Agency. How may I assist you?"
+    - text: "Greetings! You've reached the National Texting Agency. How can I be of service?"
+    - text: "Welcome to the National Texting Agency. How can I assist you on this fine day?"
+    - text: "Hello there! Thanks for choosing the National Texting Agency. How may I help you?"
+    - text: "Greetings from the National Texting Agency! How can I provide support today?"
+
+
+  utter_goodbye:
+    - text: "Nice meeting you, goodbye."
+    - text: "It was a pleasure meeting you. Goodbye!"
+    - text: "Thank you for the interaction. Farewell!"
+    - text: "Nice chatting with you. Until next time, goodbye!"
+    - text: "It's been a pleasure. Take care and goodbye!"
+
+
+  utter_iamabot:
+    - text: "I am your automated helper, at your service."
+    - text: "I'm your virtual support, ready for any questions."
+    - text: "Think of me as your virtual assistant, here to help."
+    - text: "I'm here to assist you as your virtual companion."
+    - text: "Consider me your virtual assistant, ready to assist you."
+    
+    
+  utter_nta:
+    - text: "The Ministry of Human Resource Development (MHRD) has established the 'National Testing Agency' (NTA), a leading testing Agency, to administer computer-based entrance examinations for higher educational institutions. This will bring transparency and a qualitative shift to the competitive examination process. Starting from December 2018, NTA will initiate its Tests/Exams. For Additional Details, Please Visit: [Here](https://nta.ac.in/)"
+    - text: "The Ministry of Human Resource Development (MHRD) set up the 'National Testing Agency' (NTA), a premier testing Agency, to conduct computer-based entrance exams for higher education institutions. This will introduce transparency and a qualitative improvement in the competitive examination process. Starting December 2018, NTA will commence its Tests/Exams. For More Details, Please Visit: [Here](https://nta.ac.in/)"
+    - text: "Established by the Ministry of Human Resource Development (MHRD), the 'National Testing Agency' (NTA) is a leading testing Agency, tasked with conducting computer-based entrance examinations for higher educational institutions. This initiative aims to bring transparency and a qualitative difference to the competitive examination process. Commencing from December 2018, NTA will conduct its Tests/Exams. To Learn More, Please Visit: [Here](https://nta.ac.in/)"
+    - text: "The Ministry of Human Resource Development (MHRD) has instituted the 'National Testing Agency' (NTA), a premier testing Agency, to organize computer-based entrance exams for higher education institutions. This move is designed to bring transparency and a qualitative enhancement to the competitive examination process. Starting from December 2018, NTA will initiate its Tests/Exams. For Further Information, Please Visit: [Here](https://nta.ac.in/)"
+    - text: "Established by the Ministry of Human Resource Development (MHRD), the 'National Testing Agency' (NTA) is a leading testing Agency, responsible for conducting computer-based entrance examinations for higher educational institutions. This initiative is aimed at introducing transparency and a qualitative improvement to the competitive examination process. Commencing from December 2018, NTA will conduct its Tests/Exams. For More Details, Please Visit: [Here](https://nta.ac.in/)"
+
+
+  utter_mission_nta:
+    - text: "To improve equity and quality in education by administering research based valid, reliable, efficient, transparent, fair and international level assessments. The best subject matter experts, psychometricians and IT delivery and security professionals will ensure that the current gaps in existing assessment systems are properly identified and bridged."
+
+
+  utter_nta_exams:
+    - text: |
+        NTA conducts the following entrance examinations:
+        - JEE (Main)
+        - UGC-NET Assessments for fellowship
+        - CMAT & GPAT
+        - NEET - UG
+
+
+  utter_nta_exam_schedule:
+    - text: |
+        **Entrance Examinations and Assessments for Fellowship:**
+        - UGC-NET (09.12.2018 to 23.12.2018)
+        - JEE (Main)-I (06.01.2019 to 20.01.2019)
+        - CMAT & GPAT (28.01.2019)
+        - JEE (Main)-II (06.04.2019 to 20.04.2019)
+        - NEET-UG (05.05.2019)
+
+  utter_nta_exam_mode:
+    - text: |
+        **All the examinations listed below will be computer based tests except NEET Exam. `NEET will be a single Exam in Pen-and-Paper Mode` and will be conducted in the same no. of languages as was conducted last year.
+        - UGC-NET
+        - JEE (Main) -I
+        - CMAT & GPAT
+        - JEE (Main) -II
+
+  utter_tpc_definition:
+    - text: "The Ministry of Human Resource Development has directed the NTA to establish free Test Practice Centres, especially in remote areas, to help candidates practice and become comfortable with Computer Based Tests (CBTs). This initiative aims to make the CBT experience as close to the actual test as possible, providing practice tests and questions to familiarize candidates with the system and its functionalities."
+
+  utter_tpc_objective:
+    - text: "The objective of TPCs is primarily to familiarize the candidate for taking the upcoming NTA examinations in Computer Based Test Mode."
+  
+  utter_nta_coaching:
+    - text: "As of now, NTA is providing only free Mock Test to the students in Test Practice Centre (TPC). The same facility will also be available on the website [Click Here](https://www.nta.ac.in) and “NTA Student” App. Initially, only one Mock Test is available for the Exams JEE (Main) & UGC-NET. The number will be gradually increases."
+
+  utter_join_tpc:
+    - text: "The Institution has to register on the website of NTA on the link “Training Practice Center : Registration” or follow the below link to become a Test Practice Test [TPC] (https://nta.ac.in/PC), Fill information online & submit."
+
+  utter_requirements_for_tpc: 
+    - text: |
+        The following are minimum infrastructural facilities required from an institute/school/college:
+          - 30 Computers and more with necessary software
+          - Local Area Network (LAN) or some Internet at all PCs.
+          - Power Backup for at least 30 Minutes of working.
+          - Labs/Rooms for TPC
+          - Necessary furniture.
+          - Necessary manpower for ensuring uninterrupted working of all units.
+        A TPC having fulfilled all required requirements and having successfully made Online Registration, becomes automatically a member of NTA and can be allotted students for practice by the NTA.
+
+  utter_tpc_aggrement:
+    - text: |
+        - There is an agreement/MoU to be signed between the NTA and Institutions who want to become the Test Practice Centre (TPC).
+        - After successfully Registration for Test Practice Centre (TPC) on NTA website, then TPC has to login [Here](https://nta.ac.in/Centre/Login) with the Registered Email ID and the Password.
+          - User ID: Nodal's Officer Email ID
+          - Password: Nodal's Officer Mobile No.
+        - TPC has to take a print out of blank MoU after login, sign it using simple paper, scan it with good scanner as PDF for its clarity and upload the Scanned 6 pages to PDF on corresponding space in their TPC login. For best results PDF should be about 1.5 MB.
+        - The link for user manual to execute MoU process for TPC is [Here](https://www.nta.ac.in/Download/NTA_TPC_manual.pdf)
+
+  utter_login_credential_tpc:
+    - text: "The link for Test Practice Centre [Login](https://www.nta.ac.in/Centre/Login) User ID: Nodal’s Officer Email ID Password: Nodal’s Officer Mobile No. Reset Password feature is available."
+
+  utter_candidate_registration_process_tpc:
+    - text: "Candidate will register for Test Practice Centre (TPC) through [NTA Website](https://www.nta.ac.in) or through Mobile App. For Mobile App, Candidate will have to Search on Play Store for “NTA STUDENT APP”, click on the search result of NTA Student and install the application. The Mobile App will include all the features as given for registration through the website."
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

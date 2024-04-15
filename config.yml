@@ -1,0 +1,55 @@
+# The config recipe. See https://rasa.com/docs/rasa/model-configuration/ for more information.
+recipe: default.v1
+
+# The assistant project unique identifier. This default value must be replaced with a unique assistant name within your deployment
+assistant_id: 20240103-154729-relative-fluke
+
+# Configuration for Rasa NLU. See https://rasa.com/docs/rasa/nlu/components/ for more information.
+language: en
+
+# Configuration for Rasa Core. See https://rasa.com/docs/rasa/core/policies/ for more information.
+# No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
+# If you'd like to customize it, uncomment and adjust the pipeline. See https://rasa.com/docs/rasa/tuning-your-model for more information.
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: LanguageModelFeaturizer
+    model_name: "bert"
+    model_weights: "bert-base-uncased"
+  - name: SklearnIntentClassifier
+    epochs: 100
+  - name: DIETClassifier
+    epochs: 100
+    ranking_length: 5
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq
+  - name: FallbackClassifier
+    threshold: 0.7
+    ambiguity_threshold: 0.1
+
+
+# Configuration for Rasa Core. See https://rasa.com/docs/rasa/core/policies/ for more information.
+# No configuration for policies was provided. The following default policies were used to train your model.
+# If you'd like to customize them, uncomment and adjust the policies. See https://rasa.com/docs/rasa/policies for more information.
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+  - name: RulePolicy
+    nlu_threshold: 0.4
+    core_threshold: 0.4
+    fallback_action_name: 'action_default_fallback'
+
+
+
+nlu:
+  - ./data/nlu/nlu_basics.yml
+  - ./data/nlu/nlu_nta_a.yaml

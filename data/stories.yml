@@ -1,0 +1,89 @@
+version: "3.1"
+
+stories:
+
+- story: Bot Start Conversation
+  steps:
+  - intent: bot_start_conversation
+  - action: utter_bot_start_conversation
+
+- story: Bot Restart Conversation
+  steps:  
+  - intent: restart_conversation
+  - action: utter_bot_start_conversation
+
+- story: Greet
+  steps: 
+  - intent: greet
+  - action: utter_greet
+
+- story: Good Bye
+  steps: 
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: About NTA
+  steps:
+  - intent: nta
+  - action: utter_nta
+
+- story: Mission NTA
+  steps:
+  - intent: mission_nta
+  - action: utter_mission_nta
+
+- story: NTA Exam
+  steps:
+  - intent: nta_exams
+  - action: utter_nta_exams
+
+- story: NTA Exam Date
+  steps:
+  - intent: nta_exam_schedule
+  - action: utter_nta_exam_schedule
+
+- story: NTA Exam Mode
+  steps:
+  - intent: nta_exam_mode
+  - action: utter_nta_exam_mode
+
+- story: About TPC
+  steps:
+  - intent: tpc_definition
+  - action: utter_tpc_definition
+
+- story: TPC Objective
+  steps:
+  - intent: tpc_objective
+  - action: utter_tpc_objective
+
+- story: NTA Coaching
+  steps:
+  - intent: nta_coaching
+  - action: utter_nta_coaching
+
+- story: Joining TPC
+  steps:
+  - intent: join_tpc
+  - action: utter_join_tpc
+
+- story: Requirements for Opening TPC
+  steps:
+  - intent: requirements_for_tpc
+  - action: utter_requirements_for_tpc
+
+- story: Aggrement for Opening TPC
+  steps:
+  - intent: tpc_aggrement
+  - action: utter_tpc_aggrement
+
+- story: Login Credential TPC
+  steps:
+  - intent: login_credential_tpc
+  - action: utter_login_credential_tpc
+
+- story: Candidate Registration Process TPC
+  steps:
+  - intent: candidate_registration_process_tpc
+  - action: utter_candidate_registration_process_tpc

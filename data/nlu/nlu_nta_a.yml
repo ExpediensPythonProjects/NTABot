@@ -1,0 +1,791 @@
+version: "3.1"
+
+
+nlu:
+
+- intent: nta
+  examples: |
+    - What is National Testing Agency (NTA)?
+    - What is National Testing Agency?
+    - What is NTA?
+    - NTA
+    - nta
+    - National Testing Agency
+    - Tell me about NTA
+    - Explain NTA
+    - NTA details
+    - Can you provide information on NTA?
+    - Give me an overview of NTA
+    - What is NTA known for?
+    - I want to know about NTA
+    - Share insights into NTA
+    - Tell me about nta
+    - Can you tell me about NTA?
+    - Information about NTA 
+    - NTA Info
+    - Info about nta
+    - NTA Details
+    - What does NTA do?
+    - Who operates NTA?
+    - Any info on NTA?
+    - NTA Overview
+    - NTA Introduction
+    - Brief me on NTA
+    - Details on National Testing Agency
+    - What is the role of NTA?
+    - Explain National Testing Agency
+    - Any details on NTA?
+    - Overview of NTA
+    - Can you explain NTA?
+    - Share NTA information
+    - What is NTA's function?
+    - NTA's purpose
+    - Clarify NTA
+    - Tell me NTA's role
+    - What is the National Testing Agency?
+    - NTA Background
+    - Who manages NTA?
+    - Information on NTA
+    - What is NTA's main function?
+    - Explain NTA to me
+    - NTA operations
+    - NTA overview and purpose
+
+- intent: mission_nta
+  examples: |
+    - What is the Mission of NTA?
+    - Can you tell me about the Mission of NTA?
+    - What's the Mission of NTA?
+    - Explain the Mission of NTA to me.
+    - Share the Mission of NTA.
+    - What does NTA strive to achieve?
+    - I'm curious about the Mission of NTA.
+    - Could you provide information on the Mission of NTA?
+    - What is NTA's Mission?
+    - Tell me the Mission of NTA.
+    - Can you elaborate on NTA's Mission?
+    - I want to know more about the Mission of NTA.
+    - Could you share details about the Mission of NTA?
+    - What are the goals of NTA?
+    - Inform me about the Mission of NTA.
+    - What does NTA aim for?
+    - Please describe the Mission of NTA.
+    - What is NTA's Mission statement?
+    - Share insights into the Mission of NTA.
+    - I'm interested in learning about NTA's Mission.
+    - What does NTA aim to accomplish?
+    - What's the purpose of NTA?
+    - Provide details on the Mission of NTA.
+    - Enlighten me about NTA's Mission.
+    - Can you give an overview of the Mission of NTA?
+    - I'd like to know the Mission of NTA.
+    - What is NTA's primary Mission?
+    - What does NTA prioritize in its Mission?
+    - I'm seeking information on NTA's Mission.
+    - What are the key goals in NTA's Mission?
+    - Tell me the Mission of the National Testing Agency (NTA).
+    - Tell me the Mission of the National Testing Agency (NTA).
+    - What does NTA focus on in its Mission?
+    - Please outline the Mission of NTA.
+    - What is NTA's mission and vision?
+    - Share the Mission and vision of NTA.
+    - Clarify the Mission of NTA.
+    - I want to understand NTA's Mission better.
+    - What is the Mission statement of NTA?
+    - Can you give me an idea of NTA's Mission?
+    - What is NTA's core Mission?
+    - Share NTA's Mission objectives.
+    - What are the guiding principles in NTA's Mission?
+    - What is the central Mission of NTA?
+    - I'm curious about NTA's Mission goals.
+    - Could you break down the Mission of NTA for me?
+    - What does NTA set out to achieve in its Mission?
+    - I want to know more about NTA's Mission and vision.
+    - Share NTA's Mission and vision with me.
+    - What is the overarching Mission of NTA?
+    - I'm interested in the Mission of NTA. Can you provide details?
+    - What are the main objectives in NTA's Mission?
+    - Explain NTA's Mission and vision.
+    - Tell me about NTA's Mission and its impact.
+    - I want to understand NTA's Mission and how it shapes its initiatives.
+    - What are the principles underlying NTA's Mission?
+    - Share insights into the Mission, vision, and values of NTA.
+    - I'm curious about the Mission and goals of NTA. Can you provide information?
+    - What are the key focus areas in NTA's Mission?
+    - Tell me about the Mission, vision, and values that guide NTA.
+    - I'd like to know more about NTA's Mission and how it drives its strategies.
+    - What is the overarching purpose in NTA's Mission?
+    - Share details on NTA's Mission, vision, and values.
+    - What are the primary objectives outlined in NTA's Mission?
+    - Explain the Mission, vision, and values of NTA.
+    - NTA Objective
+    - NTA Goals
+    - NTA Purpose
+    - What does NTA aim to do?
+    - Any information on NTA's objectives?
+    - Can you list NTA's mission objectives?
+    - Explain the primary goals of NTA.
+    - What is NTA's main purpose?
+    - Elaborate on NTA's objectives.
+    - What is NTA trying to achieve?
+    - Provide details on NTA's goals.
+    - What are NTA's key objectives?
+    - Can you summarize NTA's mission?
+    - What is the main focus of NTA?
+    - Any information on NTA's goals and objectives?
+    - NTA Mission and Objectives
+    - What are the aims of NTA?
+    - Tell me about the key targets in NTA's mission.
+    - What are the objectives outlined in NTA's mission statement?
+    - Clarify NTA's mission and objectives.
+    - NTA Mission Goals
+    - What is the overarching mission statement of NTA?
+    - Can you provide a summary of NTA's mission and goals?
+    - Share NTA's mission objectives with me.
+    - NTA Mission and Purpose
+    - What does NTA seek to achieve in its mission?
+    - Outline NTA's primary mission objectives.
+    - Explain NTA's goals and objectives.
+    - What is the central purpose of NTA's mission?
+    - NTA Mission Statement
+    - What are the core objectives in NTA's mission statement?
+    - Provide details on NTA's mission and purpose.
+    - What is NTA's key focus in its mission?
+    - NTA Mission Objectives and Goals
+    - What are the main goals in NTA's mission?
+    - Clarify NTA's mission and its impact.
+    - NTA's Mission Targets
+    - Explain NTA's main mission goals.
+    - What is the primary mission of NTA?
+    - NTA Mission Statement and Objectives
+    - Can you elaborate on NTA's mission objectives?
+    - Share NTA's key mission goals.
+    - What are NTA's mission priorities?
+    - NTA Mission Purpose
+    - What is the core purpose of NTA's mission?
+    - Elaborate on NTA's primary mission objectives.
+    - NTA Mission and Vision Statement
+    - What is NTA's vision in its mission?
+    - Explain NTA's mission and vision statement.
+    - NTA's Mission Focus
+    - Can you provide insights into NTA's mission focus?
+    - What are NTA's primary areas of focus in its mission?
+    - NTA Mission and Values
+    - Share information on NTA's mission and values.
+    - What values guide NTA's mission?
+
+
+- intent: nta_exams
+  examples: |
+    - What are the Examinations to be conducted by NTA?
+    - NTA Exams
+    - Exams List
+    - List of Exam
+    - Exam conducted by NTA
+    - Exams by NTA
+    - Exams of NTA
+    - List of exams conducted by NTA
+    - Can you tell me about the exams under NTA?
+    - Which examinations does NTA conduct?
+    - What are the upcoming NTA exams?
+    - Provide information on NTA examinations
+    - List the competitive exams by NTA
+    - NTA exam details
+    - Tell me about the tests administered by NTA
+    - What exams does National Testing Agency organize?
+    - Give me an overview of NTA examinations
+    - Which competitive exams come under NTA?
+    - I want to know the list of exams conducted by NTA
+    - Explain the examinations conducted by NTA
+    - Share insights into NTA's examination portfolio
+    - Can you provide details on NTA exams?
+    - What are the major exams conducted by NTA?
+    - List the national-level exams by NTA
+    - NTA examination schedule
+    - Tell me about the entrance tests conducted by NTA
+    - What are the different tests under NTA?
+    - Provide a summary of NTA exams
+    - I'm interested in NTA's examination system
+    - Share information on NTA examination process
+    - What exams are on the NTA calendar?
+    - Explain the competitive exams conducted by NTA
+    - List of NTA entrance exams
+    - NTA examination patterns
+    - Which educational tests are organized by NTA?
+    - Tell me about the various NTA examinations
+    - Provide an overview of NTA's exam structure
+    - What are the main exams conducted by NTA?
+    - Can you give details on NTA's examination procedures?
+    - Explain the NTA examination methodology
+    - List the different types of exams under NTA
+    - NTA exam information
+    - I want to know about NTA's examination system
+    - Share details on NTA's examination calendar
+    - What exams are conducted by NTA annually?
+    - Explain the pattern of exams conducted by NTA
+    - Provide a list of NTA competitive exams
+    - Tell me about NTA's role in organizing exams
+    - What examinations does NTA manage?
+    - Share the schedule of NTA examinations
+    - I'm curious about the exams under NTA
+    - Can you elaborate on the examination process of NTA?
+    - Provide details on NTA's examination syllabus
+    - What exams should I prepare for under NTA?
+    - Explain the significance of NTA exams
+    - Share information on NTA's examination criteria
+    - List the important NTA exams
+    - NTA examination guidelines
+    - What are the key examinations conducted by NTA?
+    - Tell me about NTA's contribution to exams
+    - Can you provide a list of NTA's competitive exams?
+    - Explain the selection process of NTA exams
+    - What exams are part of NTA's responsibilities?
+    - Provide insights into NTA's examination standards
+    - I want to know the major exams under NTA
+    - Share details on NTA's examination policies
+    - What is the scope of NTA's examination coverage?
+    - List the exams for which NTA is responsible
+    - NTA exam details and schedule
+    - Tell me about NTA's role in conducting exams
+    - What examinations fall under NTA's jurisdiction?
+    - Provide information on NTA's exam conducting authority
+    - What exams are on the NTA testing list?
+    - Explain the role of NTA in organizing exams
+    - Share insights into NTA's examination procedures
+
+
+- intent: nta_exam_schedule
+  examples: |
+    - What is the tentative schedule of examinations for the coming academic session?
+    - tentative dates for exam
+    - exam dates
+    - NTA exam schedule
+    - Tentative dates for NTA exams
+    - Exam dates
+    - Upcoming exam dates
+    - Dates for NTA exams
+    - NTA exam timetable
+    - NTA exam calendar
+    - NTA schedule of exams
+    - Tell me about NTA exam dates
+    - What are the exam dates for NTA?
+    - Information about NTA exam schedule
+    - NTA exam dates 2024
+    - NTA exam date details
+    - NTA upcoming exams
+    - Tell me about upcoming NTA exams
+    - What are the scheduled exam dates for NTA?
+    - Tentative schedule of NTA exams
+    - Dates for NTA competitive exams
+    - Upcoming NTA exam schedule
+    - Share insights into NTA tentative exam dates
+    - NTA exam schedule information
+    - Exam schedules for NTA
+    - NTA exam date details
+    - Tell me about NTA exam dates
+    - NTA exam schedule info
+    - Information about NTA exam dates
+    - NTA exam dates and schedule
+    - What dates are planned for the examinations in the upcoming academic session?
+    - Tentative dates for exams
+    - Exam dates
+    - Tentative exam dates
+    - Upcoming exam dates
+    - Upcoming exams
+    - Dates for exams
+    - Exam schedule 
+    - Schedules of exams
+    - Schedules of exams conducted by NTA
+    - Tell me exam dates 
+    - Tell me dates
+    - Dates 
+    - Tell me exam dates
+    - Info about exam dates
+    - About exam dates
+    - Information about exam dates
+    - Tell me about dates for exams by NTA
+    - Exam dates conducted by NTA
+    - What dates are planned for the examinations in the upcoming academic session?
+    - I want to know more about the expected exam dates.
+    - Share insights into the tentative schedule of exams.
+    - Exam schedules.
+    - NTA exam date
+    - exam tentative dates
+    - upcoming exam dates
+    - upcoming exams
+    - dates for exams by nta
+    - exam schedule 
+    - scheduels of exam
+    - schedules of exam conducted by nta
+    - tell me exam dates 
+    - tell be dates
+    - dates 
+    - JEE mains date
+    - JEE Advance date
+    - NEET -UG Date
+    - UGC-NET date
+    - CMAT Date
+    - GPAT Exam Date 
+    - NEET - UG Exam Date
+    - UGC - NET Exam date 
+    - date for JEE Mains 
+    - exam date for JEE Mains 
+    - exam dates for UGC-NET
+    - exam dates for CMAT and GPAT
+    - exam dates for NEET-UG
+    - tell me exam dates
+    - info about exam dates
+    - about exam dates
+    - informatiuon about exam dates
+    - tell be about dates for exam by nta
+    - exam dates conduxted by nta
+    - What dates are planned for the examinations in the upcoming ac
+    - I want to know more about the expected exam dates.
+    - Share insights into the tentative schedule of exams.
+    - Exam schedules.
+    - NTA exam date
+
+
+- intent: nta_exam_mode
+  examples: |
+    - Are NTA examinations conducted online or offline?
+    - Mode of exam
+    - Mode of JEE mains
+    - Clarify the examination format for NTA.
+    - Mode of Exam
+    - Is exam will be online or offline
+    - Exam will be online
+    - Exam will be offline
+    - Mode of UGC-NET 
+    - Mode of JEE-Main
+    - Mode of JEE-Advance
+    - Mode of NEET
+    - Mode of NEET-UGC
+    - Mode of UGC-NET is online or offline
+    - Mode of JEE-Main is online or offline
+    - Mode of JEE-Advance is online or offline
+    - Mode of NEET is online or offline
+    - Mode of NEET-UGC is online or offline
+    - JEE Mains is going to be online or offline
+    - JEE Advance is going to be online or offline
+    - UGC-NET is going to be online or offline
+    - CMAT and GPT is going to be online or offline
+    - NEET is going to be online or offline
+    - JEE Mains is going to be online or offline
+    - Offline or Online exam
+
+
+- intent: tpc_definition
+  examples: |
+    - TPC
+    - Tell me about TPC
+    - What is TPC
+    - What is Test Practice Centre (TPC)?
+    - Can you explain TPC in simple terms?
+    - How does TPC help with test preparation?
+    - What role does TPC play in exams?
+    - Define Test Practice Centre (TPC).
+    - Why use a Test Practice Centre?
+    - What are the key features of TPC?
+    - How is TPC different from traditional methods?
+    - Is TPC only for specific exams?
+    - What services does TPC offer?
+    - How accessible are Test Practice Centres?
+    - Any guidelines for setting up a TPC?
+    - How do TPCs adapt to learning styles?
+    - Any success stories from TPC users?
+    - Advantages of TPC over self-study?
+    - Is TPC beneficial for all education levels?
+    - Does TPC focus on specific subjects?
+    - How does technology factor into TPC programs?
+    - Any limitations or challenges with TPC?
+    - What's the cost of enrolling in TPC?
+    - Can TPC be used for various exams?
+    - How are TPCs regulated for quality?
+    - Any accreditation or certifications for TPCs?
+    - History and evolution of TPCs?
+    - Do TPCs offer personalized learning plans?
+    - Is TPC instruction primarily online or offline?
+    - Are there hybrid learning options at TPCs?
+    - Can students choose between online and offline at TPCs?
+    - How does the instructional mode vary at TPCs?
+    - Is there flexibility in TPC learning modes?
+    - Considerations for specific learning modes at TPCs?
+    - Technologies used in TPCs for learning?
+    - Seamless transition between online and offline at TPCs?
+    - Prerequisites for online mode at TPCs?
+    - Accessibility of online resources at TPCs?
+    - Unique features of online learning at TPCs?
+    - How does online learning at TPCs cater to diverse needs?
+    - Support systems for challenges in online learning at TPCs?
+    - Addressing concerns about online mode's effectiveness in test prep?
+    - Resources or guidance for offline mode at TPCs?
+    - How does offline learning at TPCs accommodate different styles?
+    - Considerations for students opting for offline mode at TPCs?
+    - Infrastructure for offline learning at TPCs?
+    - Tools or materials provided for offline learning at TPCs?
+    - Measures for a supportive environment in offline learning at TPCs?
+    - How does offline learning contribute to success at TPCs?
+    - Seamless switch between online and offline at TPCs?
+    - Limitations or challenges with online and offline modes at TPCs?
+    - What is TPC?
+    - Mock Centre
+    - TPC
+    - Mock Test Centre 
+    - Test Centre Mocke Centre 
+
+
+- intent: tpc_objective
+  examples: |
+    - TPC Objective
+    - Test Practice Centre
+    - Practice Centre Objective 
+    - Mock Test Centre Objective
+    - Mock Test Centre Role
+    - Mock Centre Use
+    - Mock Centre Role
+    - Mock Centre Objective 
+    - Objective of TPC
+    - Mission of TPC
+    - Role of TPC
+    - Role of Mock Test Centre 
+    - Goal of Mock Test Centre 
+    - What's the goal of Test Practice Centre (TPC)?
+    - What does TPC aim to achieve?
+    - Can you explain the mission of TPC?
+    - What is the primary objective of TPC?
+    - How does TPC contribute to learning?
+    - What role does TPC play in education?
+    - Can you briefly describe TPC's purpose?
+    - What are the key aims of Test Practice Centre (TPC)?
+    - How does TPC support Indian students?
+    - What's the main focus of TPC's mission?
+    - Can you outline TPC's core goals?
+    - What responsibilities does TPC have?
+    - How does TPC assist in exam preparation?
+    - What is TPC designed to accomplish?
+    - What role does TPC serve for Indian learners?
+    - How does TPC contribute to educational success?
+    - Can you summarize TPC's primary objectives?
+    - What educational needs does TPC address?
+    - What are the key functions of TPC?
+    - How does TPC align with Indian education?
+    - What goals does TPC set for students?
+    - Can you explain TPC's role in test preparation?
+    - What specific objectives does TPC focus on?
+    - How does TPC benefit Indian test-takers?
+    - What is the overarching mission of TPC?
+    - Can you highlight TPC's primary functions?
+    - What are TPC's main targets and goals?
+    - How does TPC support Indian educational goals?
+    - What role does TPC play in skill development?
+    - Can you briefly state TPC's core mission?
+    - What are the main responsibilities of TPC?
+    - How does TPC contribute to Indian education?
+    - Can you outline TPC's specific aims?
+    - What educational challenges does TPC address?
+    - What impact does TPC aim to make in education?
+    - How does TPC cater to the needs of Indian learners?
+    - What key objectives does TPC pursue?
+    - Can you summarize TPC's educational mission?
+    - What is TPC's role in shaping academic success?
+    - How does TPC align with Indian curriculum requirements?
+    - What goals does TPC set for student improvement?
+    - How does TPC enhance the learning experience?
+    - What specific objectives does TPC prioritize?
+    - Can you briefly describe TPC's impact on education?
+    - What are the core functions of TPC?
+    - How does TPC contribute to the success of Indian students?
+    - What is the overarching goal of TPC's mission?
+    - Can you highlight TPC's main focus areas?
+    - What key targets does TPC aim to achieve?
+    - How does TPC support the educational needs of Indians?
+    - What role does TPC play in academic growth?
+    - How does TPC address the challenges in Indian education?
+    - Can you outline TPC's specific contributions?
+    - What are the primary goals of TPC?
+    - What responsibilities does TPC fulfill in education?
+    - How does TPC assist Indian learners in test preparation?
+    - What is TPC's role in achieving educational objectives?
+    - Can you summarize TPC's impact on Indian students?
+    - What educational improvements does TPC aim for?
+    - How does TPC align with the educational aspirations of Indians?
+    - What are the key objectives of TPC's mission?
+    - How does TPC enhance the learning journey of Indian students?
+    - What goals does TPC set for educational excellence?
+    - How does TPC contribute to the success of Indian test-takers?
+    - What is the overarching mission of TPC in education?
+    - Can you highlight TPC's specific contributions to learning?
+    - What role does TPC play in the academic development of students?
+    - How does TPC cater to the unique needs of Indian learners?
+    - What are the primary functions of TPC in education?
+
+- intent: nta_coaching 
+  examples: |
+    - Is NTA is providing Free Coaching to the Students?
+    - Coaching for JEE Mains
+    - Coaching for JEE Advance
+    - Coaching for UGC-NET
+    - Caoching for CMAT & GPAT
+    - Coaching for NEET
+    - Coaching for NEET - UG
+    - JEE Coaching 
+    - NEET Coaching
+    - UGC-NET Coaching
+    - CMAT & GPAT Coaching
+    - NEET - UG Coaching
+    - NTA Coaching
+    - NTA Coaching Centre 
+    - Coaching Centre 
+    - Coaching center by NTA
+    - NTA provide coaching for JEE
+    - NTA provide coaching for NEET
+    - NTA provide caaching for CMAT & GPAT Coaching
+    - NTA exam prepration centre 
+    - NTA exam coaching centre
+    - JEE prepration coacing centre
+    - Coaching cntre for JEE Mains
+    - Coaching cntre for NEET UGC
+    - Coaching cntre for JEE CMAT and GPAT 
+    - Coaching Centre by NTA
+    - Online class by NTA
+    - Online Coaching by NTA
+    - Ofline class by NTA
+    - Ofline Coaching by NTA
+    - Online classes for JEE, NEET-UGC, CMAT and GPAT
+    - Ofline classes for JEE, NEET-UGC, CMAT and GPAT
+    - JEE Main Coaching
+    - NTA NEET UG Prep
+    - UGC-NET Exam Classes
+    - CMAT GPAT Coaching
+    - NTA NEET Training
+    - NTA Coaching Hub
+    - JEE Mains Support
+    - NEET - UG Guidance
+    - NTA JEE Advanced
+    - CMAT Prep
+    - GPAT Coaching Center
+    - NTA NEET Preparation
+    - Coaching by NTA Experts
+    - JEE, NEET Tips
+    - UGC-NET Exam Help
+    - CMAT GPAT Crash Course
+    - NTA Exam Support
+    - NTA Coaching Facility
+    - NTA JEE Assistance
+    - NEET Learning Hub
+    - JEE Crash Course
+    - NTA NEET Workshop
+    - UGC-NET Coaching Center
+    - CMAT GPAT Bootcamp
+    - NTA NEET UG Tutoring
+    - NTA Coaching Excellence
+    - JEE Quick Prep
+    - NEET - UG Boost
+    - NTA JEE Advanced Classes
+    - CMAT Rapid Prep
+    - GPAT Quick Guide
+    - NTA NEET Study Sessions
+    - Coaching by NTA Instructors
+    - JEE, NEET Expert Tips
+    - UGC-NET Practice Sessions
+    - CMAT GPAT Intensive Coaching
+    - NTA Exam Success Strategies
+    - NTA Coaching Solutions
+    - NTA JEE Exam Readiness
+    - NEET Learning Lab
+
+
+- intent: join_TPC
+  examples: |
+    - How can an institution/school/college become part of NTA family for Test Practice Centre (TPC)?
+    - Join TPC
+    - Member of TPC
+    - Open TPC in my college/school/institution.
+    - Opne TPC
+    - TPC members
+    - TPC membership
+    - Membership of TPC
+    - Establish TPC 
+    - TPC establishment 
+    - Integrate TPC
+    - How to join TPC
+    - How to open TPC in my school
+    - How to get membership 
+    - Inquire about Test Practice Centre (TPC) membership process.
+    - How can our school join the Test Practice Centre (TPC) program?
+    - Steps to become a member of NTA's Test Practice Centre (TPC).
+    - Join NTA's Test Practice Centre (TPC) for our institution.
+    - Interested in opening a Test Practice Centre (TPC), what's required?
+    - Apply to establish Test Practice Centre (TPC) in our college.
+    - Explore the process of becoming a Test Practice Centre (TPC) member.
+    - Enlist our institution in NTA's Test Practice Centre (TPC) initiative.
+    - Seeking information on Test Practice Centre (TPC) membership for school.
+    - What's involved in joining NTA's Test Practice Centre (TPC) as a member?
+    - How to integrate our school with NTA for Test Practice Centre (TPC)?
+    - Inquire about Test Practice Centre (TPC) membership for our institution.
+    - Steps to become a Test Practice Centre (TPC) member with NTA.
+    - What's the process for opening a Test Practice Centre (TPC) in our college?
+    - Join NTA's Test Practice Centre (TPC) program for our school.
+    - Interested in Test Practice Centre (TPC) membership, what are the steps?
+    - Enlist our college as a Test Practice Centre (TPC) for NTA examinations.
+    - Seeking information on joining Test Practice Centre (TPC) for our institution.
+    - How can our school be a part of NTA's Test Practice Centre (TPC) initiative?
+    - Apply to establish Test Practice Centre (TPC) in our educational institution.
+
+
+- intent: requirements_for_tpc
+  examples: |
+    - What is minimum infrastructure required to become a Test Practice Centre (TPC)?
+    - Infrastructure requirement for TPC
+    - Infrastructure requirement for Test Practice Centre. 
+    - Infrastructure required for opening TPC.
+    - Infrastructure required for opening Test Practice Centre.
+    - Requiremts of TPC opening
+    - TPC opening requirements
+    - Minimum requirements for opening TPC
+    - Infra for Opening TPC
+    - TPC opening infra required
+    - Infra required for TPC
+    - requirements for tpc
+    - requirements for test practice centre 
+    - Minimum infrastructure for TPC opening?
+    - TPC opening requirements?
+    - Essential infrastructure for Test Practice Centre?
+    - Opening TPC  required infrastructure?
+    - Requirements for Test Practice Centre opening?
+    - TPC opening minimum requirements?
+    - Infrastructure for TPC opening?
+    - Minimum requirements for TPC launch?
+    - TPC opening: infrastructure needs?
+    - Required infra for TPC launch?
+    - TPC infrastructure prerequisites?
+    - Opening a TPC  infrastructure?
+    - Test Practice Centre requirements?
+    - TPC launch essentials?
+    - TPC opening basics?
+    - Minimal TPC infrastructure?
+    - Essentials for TPC setup?
+    - Launching TPC needs?
+    - Test Practice Centre prerequisites?
+    - Opening TPC requirements?
+    - TPC infrastructure essentials?
+    - Minimum for TPC launch?
+    - Basics for TPC opening?
+    - TPC startup infrastructure?
+    - Key TPC launch needs?
+    - Opening a TPC - essentials?
+    - Infrastructure for TPC launch?
+    - TPC opening must-haves?
+    - Launching Test Practice Centre?
+    - Requirements for TPC start?
+    - TPC setup essentials?
+    - Minimum for TPC opening?
+    - Necessary TPC infrastructure?
+    - Infrastructure for TPC start?
+
+- intent: tpc_aggrement
+  examples: |
+    - Is there any Agreement or MoU to be signed by Test Practice Centre (TPC) with NTA?
+    - MoU for TPC
+    - Aggrement for TPC
+    - MoU of opening tpc
+    - Aggrement for tpc
+    - TPC MoU
+    - TPC Aggrement 
+    - TPC agreement details?
+    - MoU for Test Practice Centre?
+    - Agreement for opening TPC?
+    - TPC MoU specifics?
+    - What's in the TPC agreement?
+    - Clarify TPC agreement terms.
+    - Agreement for Test Practice Centre?
+    - Details about TPC MoU?
+    - TPC agreement explanation?
+    - MoU for starting TPC?
+    - Explain TPC agreement terms.
+    - Details on Test Practice Centre agreement?
+    - TPC agreement specifics?
+    - Breakdown of MoU for TPC?
+    - Clarify Test Practice Centre agreement.
+    - What's covered in TPC MoU?
+    - Agreement details for TPC?
+    - TPC MoU breakdown?
+    - Elaborate on TPC agreement terms.
+    - MoU specifics for Test Practice Centre?
+    - Provide details on TPC agreement.
+    - TPC agreement in-depth information.
+    - Explain MoU for Test Practice Centre.
+    - Breakdown of TPC agreement terms.
+    - TPC MoU clarification?
+    - Details about the Test Practice Centre agreement?
+    - Clarify MoU for TPC.
+    - TPC agreement breakdown?
+    - What's included in the TPC MoU?
+    - MoU for opening TPC
+
+- intent: login_credential_tpc
+  examples: |
+    - Forgot user id and password
+    - password and user id lost
+    - Lost login details for TPC
+    - Forgot TPC user ID and password
+    - Can't remember TPC credentials
+    - Recover TPC login information
+    - Reset TPC user ID and password
+    - Retrieve TPC login details
+    - Lost access to TPC account
+    - TPC login credentials recovery
+    - Can't log in, forgot TPC password
+    - Resetting TPC user ID and password
+    - Lost TPC account login information
+    - Need help with TPC login credentials
+    - Forgot TPC username and password
+    - TPC account access issues
+    - Reset my TPC login details
+    - Lost TPC user ID, help with recovery
+    - TPC login info retrieval
+    - Can't access TPC, forgot credentials
+    - Assistance with TPC username and password
+    - Recovering TPC login credentials
+    - TPC login issues, forgot details
+    - Lost TPC account access, need help
+    - Forgot my TPC password and user ID
+    - Trouble logging into TPC
+    - Recovering TPC login information
+    - Need to reset TPC credentials
+    - TPC login help, forgot details
+    - Lost TPC user credentials, assistance needed
+    - Can't log in to TPC, forgot password
+    - TPC account login recovery
+    - Help with TPC login credentials
+    - TPC account, lost password and user ID
+    - Forgot TPC access details
+    - TPC login info assistance
+    - Lost access to TPC, need login help
+    - Retrieving TPC username and password
+    - TPC account login recovery options
+    - Assistance with TPC access credentials
+    - Can't remember TPC login information
+    - Recovering TPC account credentials
+    - TPC login issues, lost details
+    - Forgot credentials for TPC
+    - Need to reset TPC login
+    - Lost TPC user details, help needed
+    - Troubles with TPC login, forgot credentials
+    - Assistance for TPC account access
+    - Recovering TPC login details
+    - Can't log in, lost TPC credentials
+    - TPC login problems, forgot details
+    - Help recovering TPC account access
+    - Forgot TPC username and password
+    - TPC login credentials, need assistance
+    - Lost TPC account login details
+    - Need help with TPC access credentials
+    - Retrieving TPC login details
+    - TPC login issues, lost access
+    - Trouble with TPC credentials, need help
+    - Assistance with TPC login recovery
+    - Forgot my TPC credentials, help needed
+    - Lost access to TPC, forgot login details
+    - TPC login recovery assistance
